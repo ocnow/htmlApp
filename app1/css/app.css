@@ -1,0 +1,98 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+
+.mainDiv{
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.headerDiv{
+    height: 20%;
+    display: flex;
+    background-color: brown;
+}
+
+.logoDiv {
+    max-height: 100%;    
+    background-color: blue;
+    vertical-align: top; /* align to the top of the line */
+}
+
+.logoImage{
+    max-width: 100%;
+    height: 100%;
+}
+  
+.navHeader {
+    flex: 3;
+    display: flex;
+    background-color: white;
+    vertical-align: top; /* align to the top of the line */
+}
+
+
+.NavLinks{
+    /*background-color: red;*/
+    margin-left: auto;
+    margin-top: auto;
+    height: 50%;
+    width: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.NavLinks ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.NavLinks li{
+   /* margin-right: 10px;*/
+    
+}
+
+.NavLinks li a{
+    text-decoration: none;
+    font-size: 30;
+}
+
+.NavLinks li a:hover{
+    color:red;
+}
+
+.bodyDiv{
+    height: 80%;
+    background-color: rgb(243, 136, 4);
+    position: relative;
+    object-fit: cover;
+}
+
+.appB{
+    width: 100%;
+    height: 100%;
+}
+
+.appHeading{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(126, 124, 124, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
