@@ -1,3 +1,3 @@
 App1 Target
 
-![HtmlApp Target](./app.png)
+![HtmlApp Target](./images/app.png)
