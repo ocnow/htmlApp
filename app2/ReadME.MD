@@ -5,9 +5,9 @@
 
 ## Target
 
-<img src="./images/target.png" width="300" height="200">
+<img src="./images/target.png" width="600" height="400">
 
 
 ## Result
 
-<img src="./images/result.png" width="300" height="200">
+<img src="./images/result.png" width="600" height="400">
