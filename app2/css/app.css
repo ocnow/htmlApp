@@ -1,0 +1,121 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginDiv{
+    height: 581px;
+    width: 500px;
+    line-height: 20px;
+    border: 1px solid #d6d8db;
+    border-radius: 4px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.logoDiv{
+    background-color: #132329;
+    flex: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.missionDiv{
+    background-color: #132329;
+    flex: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.missionh3{
+    color:#0B7FAD;
+}
+
+.loginFormDiv{
+    background-color: #132329;
+    flex: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input{
+    width: 80%;
+    font-size: medium;
+    border-radius: 10;
+    padding: 10px;
+}
+
+button{
+    width: 80%;
+    height: 20%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(11, 127, 173);
+}
+
+.welcomeMessageDiv{
+    background-color:#132329;
+    flex: 15%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedbackFooterDiv{
+    background-color:#132329;
+    color: white;
+    flex: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-hue-logo-main {
+    fill: #0B7FAD;
+}
+
+.svg-hue-logo-trunk {
+    fill: #9678d3;
+}
+
+.welctext{
+    color: white;
+    margin: 0;
+}
+
+.logo{
+    max-width: 40%;
+}
+
+
+.feedbacklink{
+    color: #0B7FAD;
+    text-decoration: underline;
+}
+
+.feedbacklink:hover{
+    outline: 0;
+    cursor: pointer;
+}
